@@ -7,5 +7,5 @@ const router = express.Router();
 // router.get("/test", (req, res) => {
 //     res.send("Hello World!..");
 // });
-router.get('/test', test)
+router.get('/test', test) //insted we use seperae file of controller
 export default router;
